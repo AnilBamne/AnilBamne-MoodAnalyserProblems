@@ -23,22 +23,22 @@ namespace UC1TestProj
             Assert.AreEqual(Expected, Actual);
         }
 
-        ////TC1.2Given “I am in Any Mood” message Should Return HAPPY
-        
-        //[TestMethod]
-        //public void TestMethod2()
-        //{
-        //    ///<summary>
-        //    ///Arraange-Act-Assert
-        //    /// </summary>
+        //TC1.2Given “I am in Any Mood” message Should Return HAPPY
 
-        //    string message = "I Am In Any Mood";
-        //    MoodAnalyser mood = new MoodAnalyser(message);
+        [TestMethod]
+        public void TestMethod2()
+        {
+            ///<summary>
+            ///Arraange-Act-Assert
+            /// </summary>
 
-        //    string Expected = "HAPPY";
-        //    string Actual = mood.AnalyseMoodMeathod();
+            string message = "I Am In Any Mood";
+            MoodAnalyser mood = new MoodAnalyser(message);
 
-        //    Assert.AreEqual(Expected, Actual);
-        //}
+            string Expected = "HAPPY";
+            string Actual = mood.AnalyseMoodMeathod();
+
+            Assert.AreEqual(Expected, Actual);
+        }
     }
 }
