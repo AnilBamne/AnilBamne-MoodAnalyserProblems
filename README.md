@@ -1,2 +1,0 @@
-# AnilBamne-MoodAnalyserProblems
-WelcomeToMoodAnalyserProblem
